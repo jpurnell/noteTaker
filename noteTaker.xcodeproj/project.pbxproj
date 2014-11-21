@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729697421A1FDD3E00C31D14 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729697411A1FDD3E00C31D14 /* AddNoteViewController.swift */; };
 		72FD9CE71A1FD2C30020C094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FD9CE61A1FD2C30020C094 /* AppDelegate.swift */; };
-		72FD9CE91A1FD2C30020C094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FD9CE81A1FD2C30020C094 /* ViewController.swift */; };
 		72FD9CEC1A1FD2C30020C094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FD9CEA1A1FD2C30020C094 /* Main.storyboard */; };
 		72FD9CEE1A1FD2C30020C094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FD9CED1A1FD2C30020C094 /* Images.xcassets */; };
 		72FD9CF11A1FD2C40020C094 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72FD9CEF1A1FD2C40020C094 /* LaunchScreen.xib */; };
 		72FD9CFD1A1FD2C40020C094 /* noteTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FD9CFC1A1FD2C40020C094 /* noteTakerTests.swift */; };
+		72FD9D071A1FD7150020C094 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FD9D061A1FD7150020C094 /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		729697411A1FDD3E00C31D14 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		72FD9CE11A1FD2C30020C094 /* noteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FD9CE51A1FD2C30020C094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FD9CE61A1FD2C30020C094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72FD9CE81A1FD2C30020C094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72FD9CEB1A1FD2C30020C094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72FD9CED1A1FD2C30020C094 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		72FD9CF01A1FD2C40020C094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		72FD9CF61A1FD2C40020C094 /* noteTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noteTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FD9CFB1A1FD2C40020C094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FD9CFC1A1FD2C40020C094 /* noteTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTakerTests.swift; sourceTree = "<group>"; };
+		72FD9D061A1FD7150020C094 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				72FD9CE21A1FD2C30020C094 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		72FD9CE21A1FD2C30020C094 /* Products */ = {
 			isa = PBXGroup;
@@ -78,8 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				72FD9CE61A1FD2C30020C094 /* AppDelegate.swift */,
-				72FD9CE81A1FD2C30020C094 /* ViewController.swift */,
+				72FD9D061A1FD7150020C094 /* NotesTableViewController.swift */,
 				72FD9CEA1A1FD2C30020C094 /* Main.storyboard */,
+				729697411A1FDD3E00C31D14 /* AddNoteViewController.swift */,
 				72FD9CED1A1FD2C30020C094 /* Images.xcassets */,
 				72FD9CEF1A1FD2C40020C094 /* LaunchScreen.xib */,
 				72FD9CE41A1FD2C30020C094 /* Supporting Files */,
@@ -212,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FD9CE91A1FD2C30020C094 /* ViewController.swift in Sources */,
 				72FD9CE71A1FD2C30020C094 /* AppDelegate.swift in Sources */,
+				72FD9D071A1FD7150020C094 /* NotesTableViewController.swift in Sources */,
+				729697421A1FDD3E00C31D14 /* AddNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = noteTaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = noteTaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +412,7 @@
 				72FD9D021A1FD2C40020C094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72FD9D031A1FD2C40020C094 /* Build configuration list for PBXNativeTarget "noteTakerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +421,7 @@
 				72FD9D051A1FD2C40020C094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
